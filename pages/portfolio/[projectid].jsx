@@ -9,6 +9,7 @@ export default function PortfolioProjectPage() {
   return (
     <div>
       <h1>PortfolioProjectPage</h1>
+      <p>{router.query.projectid}</p>
     </div>
   );
 }
